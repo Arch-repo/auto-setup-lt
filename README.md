@@ -44,7 +44,7 @@ root@anto426: ~/auto-setup-lt (main⚡)$ ./bootstrap.sh
 
 ```bash
 sudo pacman -Syu --noconfirm
-bash -c "$(curl -fSL https://raw.githubusercontent.com/Arch-repo/auto-setup-LT/main/arch.sh)"
+bash -c "$(curl -fSL https://raw.githubusercontent.com/Arch-repo/auto-setup-lt/main/arch.sh)"
 ```
 
 ### 🍥 Debian-based Distributions
@@ -52,7 +52,7 @@ bash -c "$(curl -fSL https://raw.githubusercontent.com/Arch-repo/auto-setup-LT/m
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-bash -c "$(curl -fSL https://raw.githubusercontent.com/Arch-repo/auto-setup-LT/main/debian.sh)"
+bash -c "$(curl -fSL https://raw.githubusercontent.com/Arch-repo/auto-setup-lt/main/debian.sh)"
 ```
 
 <p align="center">

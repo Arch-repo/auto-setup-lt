@@ -12,7 +12,7 @@ BLUE="\e[34m"
 #----------------------------
 
 DOTFILES_REPO="${DOTFILES_REPO:-https://github.com/Arch-repo/dotfiles.git}"
-AUTO_SETUP_RAW_URL="${AUTO_SETUP_RAW_URL:-https://raw.githubusercontent.com/Arch-repo/auto-setup-LT/main}"
+AUTO_SETUP_RAW_URL="${AUTO_SETUP_RAW_URL:-https://raw.githubusercontent.com/Arch-repo/auto-setup-lt/main}"
 AUTO_SETUP_EMBEDDED="${AUTO_SETUP_EMBEDDED:-0}"
 AUTO_SETUP_RUN_DOTFILES_INSTALLER="${AUTO_SETUP_RUN_DOTFILES_INSTALLER:-0}"
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd -P || pwd)"
